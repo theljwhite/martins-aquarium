@@ -1,0 +1,119 @@
+body {
+  background-color: #f3f4f6;
+}
+
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background: url("https://thumbs.dreamstime.com/z/nine-best-koi-fish-black-background-koi-fish-japan-nine-best-koi-fish-black-background-157252223.jpg");
+}
+
+.hero__pad {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  text-align: center;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.hero__header {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero__para {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(255, 235, 235);
+}
+
+.container {
+  display: flex;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: black;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 42px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.owned-list {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.owned__article {
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: #e5e7eb;
+  max-width: 24rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.owned__inner {
+  padding: 1.25rem;
+}
+
+.owned__article h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #111827;
+}
+.owned__article img {
+  width: 382px;
+  height: 255px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.owned__article p {
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+  color: #374151;
+}
+
+.owned__article button {
+  display: inline-flex;
+  padding: 0.5rem 0.5rem 0.75rem 0.75rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1d4ed8;
+  border: none;
+}
+
+.owned__article button:hover {
+  background-color: #1e40af;
+  cursor: pointer;
+}
+
+.owned__section {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.owned__article__ctn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+  row-gap: 2rem;
+}
