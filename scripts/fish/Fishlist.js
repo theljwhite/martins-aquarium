@@ -1,5 +1,4 @@
-import { getFish } from "./database.js";
-
+import { getFish } from "../database.js";
 const allFish = getFish();
 
 export const FishArticle = () => {
@@ -13,8 +12,8 @@ export const FishArticle = () => {
       </a>
       <div class="owned__inner">
         <h2>${fish.customName}</h2>
-        <p>${fish.species}, ${fish.length}</p>
-        <p>Diet: ${fish.diet}</p>
+        <p>${fish.species}, size ${fish.size}</p>
+        <p>Diet: ${fish.food}</p>
         <p>Harvested at: ${fish.harvestLocation}</p>
         <button>Read more</button>
       </div>
